@@ -6,6 +6,7 @@ export default function App(){
         <div>
         <h1>{tag}</h1>
         <h2>Eita que troço doido</h2>
+        <h2>Coisa de corno</h2>
         </div>
     )
 }
