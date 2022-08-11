@@ -16,7 +16,6 @@ export default function Carros(){
                 <li>Celta</li>
                 <li>Gol</li>
                 <li>Corsa</li>
-                <li>Del Rey</li>
             </ul>
             <Parceiros/>
         </div>
