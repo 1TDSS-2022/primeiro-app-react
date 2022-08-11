@@ -1,0 +1,18 @@
+body{
+    background-color: dimgray;
+    color: antiquewhite;
+}
+
+img{
+    width: 300px;
+}
+
+img:hover{
+    animation: ;
+}
+
+@keyframes aumentar {
+     {
+        bottom: 0px;
+    }
+}
