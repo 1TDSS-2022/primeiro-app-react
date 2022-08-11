@@ -1,11 +1,23 @@
 import React from "react"
+import './App.css'
+import ListaDeAlunos from "./components/listaDeAlunos/ListaDeAlunos"
 
 export default function App(){
-    const tag = <strong>Olá React!</strong>
+    
+    const aluno = "Douglas"
+    const turma = "ADS"
+    const profs = ["Thiago", "Gondo", "Cordeiro", "Miguel", "Spinola", "Phill"]
+    
     return(
         <div>
-            <h1>{tag}</h1>
-            <h2>Subtítulo</h2>
+            
+            <h2>INFORMAÇÕES</h2>
+            <ListaDeAlunos
+            alunoProp={aluno}
+            turmaProp={turma}
+            profsProp={profs}
+            />
+
         </div>
     )
 }
