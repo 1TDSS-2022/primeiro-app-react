@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Cabecalho from './components/cabecalho/Cabecalho'
 import Carros from './components/carros/Carros'
-import listaDeAlunos from './components/listaDeAlunos/ListaDeAlunos'
+import ListaDeAlunos from './components/listaDeAlunos/ListaDeAlunos'
 
 export default function App(){
 
