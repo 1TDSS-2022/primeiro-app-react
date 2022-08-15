@@ -6,7 +6,7 @@ import ListaDeAlunos from "./components/listaDeAlunos/ListaDeAlunos"
 
 export default function App(){
 
-    const aluno = "Luan"
+    const aluno = "Mariana"
     const turma = "1TDSS"
     const profs = ["Thiago", "Gondo", "Cordeiro", "Miguel", "Salvio"]
 
