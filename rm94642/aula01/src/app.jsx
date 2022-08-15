@@ -12,7 +12,7 @@ export default function App() {
     const turma = "1TDSS"
     const profs = ["Thiago", "Gondo", "Cordeiro", "Miguel", "Spinola", "Ale"]
 
-    //const tag = <strong>Ola React</strong>
+    
     return (
         <div>
         
