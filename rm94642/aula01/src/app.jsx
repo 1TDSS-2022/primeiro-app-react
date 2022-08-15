@@ -1,17 +1,27 @@
 import React from 'react'
 import './App.css'
-import Cabecalho from './components/cabecalho/Cabecalho'
-import Carros from './components/carros/Carros'
-import Parceiros from './parceiros/Parceiros'
+//import Cabecalho from './components/cabecalho/Cabecalho'
+//import Carros from './components/carros/Carros'
+//import Parceiros from './components/parceiros/Parceiros'
+import ListaDeAlunos from './components/listaDeAlunos/ListaDeAlunos'
+
 
 export default function App() {
-    const tag = <strong>Ola React</strong>
+
+    const aluno = "Luan"
+    const turma = "1TDSS"
+    const profs = ["Thiago", "Gondo", "Cordeiro", "Miguel", "Spinola", "Ale"]
+
+    //const tag = <strong>Ola React</strong>
     return (
         <div>
-        <Cabecalho></Cabecalho>
-        <Parceiros></Parceiros>
-        <h1>{tag}</h1>
-        <h2>Subtitulo</h2>
+        
+        <h2>Informações</h2>
+        <ListaDeAlunos
+        alunoProp={aluno}
+        turmaProp={turma}
+        profsProp={profs}
+        />
         </div>
     )
 }

@@ -1,25 +1,24 @@
 import React from "react"
-import carroLindo from '../../img'
-import Parceiros from "../../parceiros/Parceiros"
+import carroLindo from '../../img/bronco-ford.jpg'
+import Parceiros from '../parceiros/Parceiros'
 
 export default function Carros() {
     return(
         <div>
             <figure>
-                <img src="{carroLindo}" width="200px" alt="Utilitario" />
+                <img src={carroLindo} alt="Utilitario" width="200px"/>
                 <figcaption>
-                    Um carro que enfrenta qualquer parada
+                    Um carro que enfrenta qualquer parada!
                 </figcaption>
             </figure>
-            <Parceiros>
             <ul>
-                <li>fusca</li>
-                <li>celta</li>
-                <li>gol</li>
-                <li>corsa</li>
-                <li>del rey</li>
+                <li>Fusca</li>
+                <li>Celta</li>
+                <li>Gol</li>
+                <li>Corsa</li>
+                <li>Del rey</li>
             </ul>
-            </Parceiros>
+            <Parceiros/>
         </div>
     )
 }
